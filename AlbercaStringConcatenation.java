@@ -1,6 +1,6 @@
-  public class StringConcatenation {
-
-    public static String concatenateStrings(String str1,  String str2,  String str3) {
+   public class Main {
+    
+   public static String concatenateStrings(String str1,  String str2,  String str3) {
         // Calculate lengths of strings
         int len1 = str1.length();
         int len2 = str2.length();
@@ -31,11 +31,11 @@
 
     public static void main(String[] args) {
         String str1 = " Alberca ";
-        String str2 = " Jullianne ";
+        String str2 = " Jullianne";
         String str3 = " Salor ";
 
         // Call the concatenateStrings method
         String concatenatedString = concatenateStrings(str1,  str2,  str3);
         System.out.println("Concatenated string:  " + concatenatedString);
     }
-}
+   }
